@@ -1,0 +1,22 @@
+package ocajp.q024;
+
+public class Test {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        char colorCode = 'y';
+        switch(colorCode) {
+            case 'r':
+                int color = 100;
+                break;
+            case 'b':
+                color = 10;
+                break;
+            case 'y':
+                color = 1;
+                break;
+        }
+        //System.out.println(color);
+    }
+
+}
